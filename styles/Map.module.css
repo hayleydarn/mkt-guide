@@ -1,0 +1,11 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+@import "leaflet/dist/leaflet.css";
+@import "leaflet-defaulticon-compatibility/dist/leaflet.css";
+@import "leaflet-defaulticon-compatibility";
+
+.leaflet-popup-content-wrapper
+.leaflet-popup-tip {
+    background-color: darkolivegreen;
+    color: #fff;
+}
