@@ -1,0 +1,66 @@
+const steepFalls = [
+  {
+    name: "Sweet Relief Farms",
+    type: "farm",
+    address: {
+      street: "33 Florence Ln",
+      city: "Steep Falls",
+      state: "ME",
+      zip: "04085"
+    },
+    phone: "207-657-3410",
+    website: "https://sweetrelieffarm.com/",
+    hours: {},
+    facebook: "https://www.facebook.com/sweetrelieffarm/"
+  },
+  {
+    name: "Pine Root Farm & Market",
+    type: "farm",
+    address: {
+      street: "1000 Pequawket Trail",
+      city: "Steep Falls",
+      state: "ME",
+      zip: "04085"
+    },
+    phone: "207-291-6639",
+    website: "https://www.pinerootfarm.com/",
+    email: "rubypineroot@gmaill.com",
+    facebook: "https://www.facebook.com/pinerootfarm/",
+  {
+    name: "Steep Falls Farmers Market",
+    type: "farmers market",
+    address: {
+      street: "1 Main St",
+      city: "Steep Falls",
+      state: "ME",
+      zip: "04085"
+    },
+    phone: "207-657-3410",
+    website: "https://steepfallsfarmersmarket.com/",
+    facebook: "https://www.facebook.com/steepfallsfarmersmarket/",
+    hours: {},
+  }
+]
+
+const limington= [
+  {
+    name: "November's Harvest Farm",
+    type: "farm",
+    address: {
+      street: "46 Shaving Hill Rd",
+      city: "Limington",
+      state: "ME",
+      zip: "04049"
+    },
+    phone: "207-310-0976",
+    email: "novembersharvestme@gmail.com",
+    website: "https://noharvest.wordpress.com/",
+    csa: True,
+    meat: True,
+    produce: True,
+    hours: {}
+  },
+  {}
+
+
+]

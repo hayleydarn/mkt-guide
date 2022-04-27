@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1",
+    "type": "farmers market",
+    "name": "Windham Farmers Market",
+    "address": {
+      "street": "123 Main St",
+      "city": "Windham",
+      "state": "ME",
+      "zip": "04268"
+    },
+    "phone": "207-555-1212",
+    "website": " ",
+    "hours": {
+      "monday": " ",
+      "tuesday": " ",
+      "wednesday": " ",
+      "thursday": " ",
+      "friday": " ",
+      "saturday": " ",
+      "sunday": " ",
+    },
+    "lat": "43.8984",
+    "lng": "-69.9077",
+    "image": "https://farm-list-api.herokuapp.com/images/1.jpg",
+    "description": " ",
+    "products": [
+      {
+        "id": "1",
+        "name": "Beef",
+        "image": "https://farm-list-api.herokuapp.com/images/1.jpg",
+
+      },
+    ] 
+  },
+  {
+    "id": "2",
+    "type": "farmers market",
+    "name": "Gorham Farmers Market",
+]

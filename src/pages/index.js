@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '/Users/hayleyrobertson/Development/2022/sebago-markets/mapeg/next-leaflet-starter/styles/Home.module.css';
+import styles from '/Users/hayleyrobertson/Development/2022/mkt-guide/styles/Home.module.css';
 
 export default function Home() {
 
