@@ -2,13 +2,20 @@
   color: cornflowerblue;
   text-shadow: burlywood;
   font-weight: bolder;
+  text-decoration-color: rgb(25, 32, 44);
+  text-decoration-style: double;
+  text-decoration-line: underline;
 }
 
 .li {
   color: rgb(8, 9, 9);
   text-shadow: burlywood;
   padding: 0.5rem;
+  text-decoration-color: rgb(201, 213, 237);
+  text-decoration-style: double;
+  text-decoration-line: overline;
 }
+
 
 .navbar {
   color: purple;
@@ -18,7 +25,7 @@
   font-size: 2rem;
   justify-content: space-evenly;
   align-items:center;
-  border: 1px solid burlywood;
+  border-bottom: 2px solid burlywood;
 }
 
 .nav {

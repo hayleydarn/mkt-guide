@@ -1,4 +1,4 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css";
 
 @import "leaflet/dist/leaflet.css";
 @import "leaflet-defaulticon-compatibility/dist/leaflet.css";
@@ -8,4 +8,13 @@
 .leaflet-popup-tip {
     background-color: darkolivegreen;
     color: rgba(175, 30, 30, 0.716);
+} */
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-left: 8rem;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(201, 213, 237);
 }

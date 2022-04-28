@@ -16,7 +16,7 @@ export default function Home() {
         <p className={styles.description}>Spring / Summer 2022</p>
         <div className={styles.grid}>
           <a href="/farmmap" className={styles.card}>
-            <h2>The Farm Map &rarr;</h2>
+            <h2>Janky Map &rarr;</h2>
           </a>
           <a href="/interactivemap" className={styles.card}>
             <h2>Interactive Map &rarr;</h2>

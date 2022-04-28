@@ -1,22 +1,20 @@
-const InteractiveMap = (props) => {
-  return(
-    <main>
-      <div className='interactive-maps'>
-        <div className="interactive-map">
-          <iframe 
-          src={props.src} 
-          width="600" 
-          height="450"
-          frameborder="0"
-          style={{border:0}}
-          allowfullscreen=""
-          aria-hidden="false"
-          />
-        </div>
-      </div>
+import style from './InteractiveMap.module.css';
 
-    </main>
+const InteractiveMap = ( props ) => {
+  return (
+      <div className={props.title}>
+        <h3 className={style.heading}>{props.title}</h3>
+        <iframe 
+        src={props.src} 
+        width="600" 
+        height="450"
+        frameBorder="0"
+        style={{border:0}}
+        allowFullScreen=""
+        aria-hidden="false"
+        />
+      </div>
   );
 };
 
-export default InteractiveMap
+export default InteractiveMap;
