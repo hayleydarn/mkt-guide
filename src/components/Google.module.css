@@ -1,0 +1,17 @@
+.props.className {
+  color: red;
+}
+
+.map1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.map2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
