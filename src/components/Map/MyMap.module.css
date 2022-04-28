@@ -1,6 +1,14 @@
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 .container {
-  height: 100%;
-  width: 100%;
+  height: 500px;
+  width: 500px;
+  /* margin-top: px; */
+  border: 1px solid #ccc;
 }
 
 .popup {

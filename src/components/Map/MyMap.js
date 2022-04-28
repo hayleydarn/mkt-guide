@@ -31,14 +31,15 @@ const MyMap = ({ center, draggable, onDragMarker, location }) => {
   });
 
   return (
+    <div className={styles.heading}>
     <MapContainer
       center={[center.lng, center.lat]}
-      zoom={13}
+      zoom={6}
       scroolWheelZoom={false}
       className={styles.container}
     >
       <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       />
       <Marker
@@ -54,6 +55,7 @@ const MyMap = ({ center, draggable, onDragMarker, location }) => {
         <Popup className={styles.popup}>{"my title"}</Popup>
       </Marker>
     </MapContainer>
+    </div>
   );
 };
 

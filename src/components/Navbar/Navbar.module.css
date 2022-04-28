@@ -1,0 +1,26 @@
+.active {
+  color: cornflowerblue;
+  text-shadow: burlywood;
+  font-weight: bolder;
+}
+
+.li {
+  color: rgb(8, 9, 9);
+  text-shadow: burlywood;
+  padding: 0.5rem;
+}
+
+.navbar {
+  color: purple;
+  text-shadow: burlywood;
+  list-style-type: none;
+  display: inline-flex;
+  font-size: 2rem;
+  justify-content: space-evenly;
+  align-items:center;
+  border: 1px solid burlywood;
+}
+
+.nav {
+  z-index: 10;
+}

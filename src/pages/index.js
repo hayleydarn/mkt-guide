@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '/Users/hayleyrobertson/Development/2022/mkt-guide/styles/Home.module.css';
+import InteractiveMap from '../components/InteractiveMap';
 
 export default function Home() {
 
@@ -15,28 +16,12 @@ export default function Home() {
         <h1 className={styles.title}>Sebago Area Farmers Market Guide</h1>
         <p className={styles.description}>Spring / Summer 2022</p>
         <div className={styles.grid}>
-          <a href="/map" className={styles.card}>
-          <h2>The Farm Map &rarr;</h2>
+          <a href="/farmmap" className={styles.card}>
+            <h2>The Farm Map &rarr;</h2>
           </a>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Farmers Markets &rarr;</h2>
+          <a href="/interactivemap" className={styles.card}>
+            <h2>Interactive Map &rarr;</h2>
             {/* <p>get market hours and locations</p> */}
-          </a>
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Farm Stands &rarr;</h2>
-            {/* <p>discover pop-up farm stands near you</p> */}
-          </a>
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Meat & Fish &rarr;</h2>
-            {/* <p>find your local butcher</p> */}
-          </a>
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Visit a Farm &rarr;</h2>
-            <p></p>
-          </a>
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Join a CSA &rarr;</h2>
-            <p></p>
           </a>
         </div>
         <p>get in touch to put your farm on the map!</p>
