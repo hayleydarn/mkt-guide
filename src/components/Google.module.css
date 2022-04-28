@@ -7,6 +7,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  margin-left: 2rem;
 }
 
 .map2 {
@@ -14,4 +15,9 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+.interactive-maps {
+  align-content: space-between;
+  margin-left: 2rem;
 }

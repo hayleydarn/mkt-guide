@@ -1,7 +1,9 @@
+import style from './InteractiveMap.module.css';
+
 const InteractiveMap = ( props ) => {
   return (
       <div className={props.title}>
-        <h3>{props.title}</h3>
+        <h3 className={style.heading}>{props.title}</h3>
         <iframe 
         src={props.src} 
         width="600" 
