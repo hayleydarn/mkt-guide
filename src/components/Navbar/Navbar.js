@@ -30,7 +30,7 @@ const Navbar = () => {
       <ul className={styles.navbar}>
         <NavItem href="/">Home</NavItem>
         <NavItem href="/interactivemap">Interactive Map</NavItem>
-        <NavItem href="/farmmap">Farm Map</NavItem>
+        <NavItem href="/farmmap">Janky Map</NavItem>
       </ul>
     </header>
   );
