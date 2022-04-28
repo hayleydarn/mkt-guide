@@ -4,6 +4,7 @@ const InteractiveMap = ( props ) => {
   return (
       <div className={props.title}>
         <h3 className={style.heading}>{props.title}</h3>
+        <h5 className={style.subheading}>click on a location to learn more</h5>
         <iframe 
         src={props.src} 
         width="600" 
