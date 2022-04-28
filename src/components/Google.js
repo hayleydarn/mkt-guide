@@ -1,5 +1,5 @@
 import styles from './Google.module.css';
-import InteractiveMap from '/Users/hayleyrobertson/Development/2022/mkt-guide/src/components/InteractiveMap.js';
+import InteractiveMap from './InteractiveMap';
 
 const Google = () => {
   return (
