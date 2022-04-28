@@ -1,5 +1,4 @@
 import InteractiveMap from '../components/InteractiveMap';
-
 import Navbar from '../components/Navbar/Navbar';
 
 const sources = [

@@ -1,6 +1,5 @@
 import Head from 'next/head';
-import styles from '/Users/hayleyrobertson/Development/2022/mkt-guide/styles/Home.module.css';
-import InteractiveMap from '../components/InteractiveMap';
+import styles from '../../styles/Home.module.css';
 
 export default function Home() {
 
